@@ -1,11 +1,10 @@
 Package: RProgrammingFall2025WalshRobert
-Title: What the Package Does (One Line, Title Case)
+Title: Package and Repository for LIS4370 R Programming Assignments
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Robert", "Walsh", , "robertwalsh@usf.edu", role = c("aut", "cre"))
+Description: The assignments in LIS4370 are cumulative and build upon prior work.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
