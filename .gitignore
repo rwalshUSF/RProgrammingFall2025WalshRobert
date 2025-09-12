@@ -1,0 +1,17 @@
+# R/RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Outputs
+results/
+*.html
+*.pdf
+*.png
+*.jpg
+*.csv
+.Rproj.user
+.httr-oauth
+.DS_Store
+.quarto
