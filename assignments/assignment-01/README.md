@@ -1,7 +1,7 @@
-# Assignment 01 – Basic Function myMean(x)
+# Assignment 01 – Basic Function myMean(assignment2)
 
 ## Description
-This is a corrected version of the myMean() function that correctly returns the mean of an input variable 'x'.
+This is a corrected version of the myMean() function that correctly returns the mean of an input variable 'assignment2'.
 
 ## How to Run
 1) Open the project based on the R assignments in RStudio
