@@ -1,10 +1,8 @@
-Assignment 04 – Programming Structure in R
-
+Assignment 03 – Data Frames
 Description
-Practice data cleaning and handling missing values in R.
-Create side‑by‑side boxplots and histograms for continuous measures.
-Interpret relationships between patient vitals and physician assessments.
-Communicate results clearly on your blog and GitHub.
+This assignment was based on polling data from the 2016 election. The task was to compute per-candidate averages across two polls and calculate the overall mean across all candidate–poll cells.
+
+To implement this in R, we used a data frame, a fundamental data structure for storing tabular data, where information is organized into rows and columns.
 
 How to Run
 Open the project based on the R assignments in RStudio
