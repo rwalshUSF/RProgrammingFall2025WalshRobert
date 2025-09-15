@@ -1,13 +1,17 @@
-Assignment 03 – Data Frames
-Description
-This assignment was based on polling data from the 2016 election. The task was to compute per-candidate averages across two polls and calculate the overall mean across all candidate–poll cells.
+# Assignment 04 – Programming Structure in R
 
-To implement this in R, we used a data frame, a fundamental data structure for storing tabular data, where information is organized into rows and columns.
+## Description
+Practice data cleaning and handling missing values in R.
+Create side‑by‑side boxplots and histograms for continuous measures.
+Interpret relationships between patient vitals and physician assessments.
+Communicate results clearly on your blog and GitHub..
 
-How to Run
-Open the project based on the R assignments in RStudio
-Run all lines (or source the script)
-Outputs (plots/tables) are produced in the console and/or saved to results/ if applicable.
-Packages - NA
-Data - Source: - Location: <path if local, or URL if remote>
-Notes: Any assumptions, limitations, or known issues.
+## How to Run
+1) Open the project based on the R assignments in RStudio
+2) Run all lines (or source the script)
+3) Outputs (plots/tables) are produced in the console and/or saved to results/ if applicable.
+
+## Packages - NA
+## Data - Source: <link or brief description> - Location: <path if local, or URL if remote>
+## Notes: Any assumptions, limitations, or known issues.
+
