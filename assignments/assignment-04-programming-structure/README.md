@@ -1,5 +1,8 @@
 # Assignment 04 – Programming Structure in R
 
+## Blog Link
+https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%204/
+
 ## Description
 Practice data cleaning and handling missing values in R.
 Create side‑by‑side boxplots and histograms for continuous measures.
