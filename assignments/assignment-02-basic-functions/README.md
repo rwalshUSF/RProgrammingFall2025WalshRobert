@@ -1,4 +1,4 @@
-# Assignment 01 – Basic Function myMean(assignment2)
+# Assignment 02 – Basic Function myMean(assignment2)
 
 ## Description
 This is a corrected version of the myMean() function that correctly returns the mean of an input variable 'assignment2'.
