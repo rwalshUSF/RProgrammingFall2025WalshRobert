@@ -8,7 +8,6 @@
 results/
 *.html
 *.pdf
-*.png
 *.jpg
 *.csv
 .Rproj.user
