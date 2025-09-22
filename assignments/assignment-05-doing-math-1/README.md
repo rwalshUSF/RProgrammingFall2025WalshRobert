@@ -1,6 +1,6 @@
 # Assignment 05 – Matrix Algebra in R
 Blog Link
-https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%204/
+https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%205/
 
 ## Description
 Practice creating and inspecting matrices in R.
