@@ -1,6 +1,6 @@
 # Assignment 06 – Matrix Operations and Construction
 Blog Link
-https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%205/
+https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%206/
 
 ## Description
 Practice basic matrix arithmetic in R (addition, subtraction).
