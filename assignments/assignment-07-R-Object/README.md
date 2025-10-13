@@ -1,6 +1,6 @@
 # Assignment 07 – Exploring R’s Object Oriented Systems (S3 &amp; S4)
 Blog Link
-https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%206/
+https://rwalshusf.quarto.pub/httpsrwalshusfquartopubr-programming-journal---robert-walsh/posts/Module%207/
 
 ## Description
 Select or create a dataset and practice applying R’s generic functions.
