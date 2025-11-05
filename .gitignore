@@ -6,7 +6,6 @@
 
 # Outputs
 results/
-*.html
 *.pdf
 *.jpg
 *.csv
