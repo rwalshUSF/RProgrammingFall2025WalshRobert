@@ -1,0 +1,133 @@
+---
+title: "Assignment #12: Introduction to R Markdown"
+author: "By: Robert Walsh \n\n For: LIS4370.001F25 - Dr. Friedman" 
+output: html_document
+---
+
+<hr>
+
+# Task: 1 - Create an R Markdown File
+
+<br> In RStudio, go to File → New File → R Markdown… and choose HTML output.
+
+Give it a title (e.g., “My R Markdown Primer”) and author metadata.
+
+```{r echo=TRUE}
+# add the 'author:' metadata tag and add author "text"
+
+# author: "By: Robert Walsh \\n\\n For: LIS4370.001F25 - Dr. Friedman"
+
+# Customize the html_document output with HTML tags!
+
+# add .png / img file
+```
+
+[![](metadata1.png)](metadata1.png)
+
+# Task: 2 - Populate the Document
+
+<br>
+
+## Write sections that include:
+
+### A brief introduction explaining what R Markdown is.
+
+```{r echo=TRUE}
+# R markdown is an open source framework/file format to combine R code and the
+# resulting output of that code along with text into one unified document.
+# According to Wickham & Grolemund (2017) "R Markdown provides an unified 
+# authoring framework for data science, combining your code, its results, 
+# and your prose commentary" (p. 27). This capability allows R markdown
+# documents to be created in many output formats.
+
+# Reference: Wickham, H., & Grolemund, G. (2017). R for data science. O’Reilly.
+```
+
+### At least one narrative paragraph (Markdown text).
+
+<hr>
+
+*The previous paragraph was contained in an 'R code chunk'*
+
+<hr>
+
+This allows the markdown file to run/execute code or text within the code chunk
+
+and has options on what should be displayed to the screen or document. I will
+
+now write the same paragraph describing R markdown in Markdown text format
+
+instead of in an R code chunk and compare the source .Rmd file side-by-side
+
+with the rendered output!
+
+<hr>
+
+*a blank line starts a new paragraph*
+
+<hr>
+
+R markdown is an open source framework/file format to combine R code and the resulting output of that code along with text into one unified document. According to Wickham & Grolemund (2017) "R Markdown provides an unified authoring framework for data science, combining your code, its results, and your prose commentary" (p. 27). This capability allows R markdown documents to be created in many output formats.
+
+Reference: Wickham, H., & Grolemund, G. (2017). R for data science. O’Reilly.
+
+<hr>
+
+*This is a side by side comparison of the the source .Rmd file and the rendered output.*
+
+<hr>
+
+[![](compare1.png)](compare1.png)
+
+<hr>
+
+### At least one LaTeX math expression (e.g., inline $alpha + beta = gamma$ and a displayed equation).
+
+This is an inline equation: if $x=2$ then $x^2=4$
+
+<hr>
+
+### At least two executable R code chunks that:
+
+### Load a library or dataset.
+
+```{r Load library, echo=TRUE}
+# Code chunk to load a library
+library(ggplot2)
+```
+
+### &
+
+### Run a simple analysis or generate a plot (e.g., summary statistics or ggplot2 chart).
+
+```{r Load library, data, and plot, echo=TRUE}
+# Code chunk to load a library
+library(ggplot2)
+data("diamonds")
+# Code chunk to generate a plot
+ggplot(diamonds,aes(x=carat,y=price))+
+  geom_point()
+```
+
+<hr>
+
+*This is a side by side comparison of the the source .Rmd file and the rendered output.*
+
+<hr>
+
+[![](compare2.png)](compare2.png)
+
+<hr>
+
+### A concluding reflection on your experience using R Markdown vs. writing plain reports
+
+<hr>
+
+In conclusion, 
+
+the experience from writing plain reports to using R Markdown is an interesting shift that offers significant advantages, despite a notable initial hurdle. The primary challenge lies in the steep learning curve associated with mastering R Markdown's syntax, integration of code chunks, and understanding its various output formats and customization options. This initial time investment can be a deterrent for those accustomed to the immediate familiarity of traditional word processors.
+
+However, 
+
+the benefits of practicing R Markdown ultimately far outweighs this initial difficulty. The fundamentals of programming ensure that narrative text, code, and results are integrated seamlessly, leading to reports that are fully reproducible, dynamic, and less prone to manual errors. The ability to generate professional quality outputs in multiple formats like, PDF, HTML, and Word from a single source file greatly enhances efficiency and consistency as well. While the initial learning curve requires commitment, the resulting automation, reproducibility, and flexibility transforms the reporting process, making R Markdown a great choice for data science and analytical driven communication.
+
